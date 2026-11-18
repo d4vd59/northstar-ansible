@@ -1,0 +1,2 @@
+Commandline: apt install -y nginx
+Install: nginx:amd64 (1.24.0-2ubuntu7.19), nginx-common:amd64 (1.24.0-2ubuntu7.19, automatic)

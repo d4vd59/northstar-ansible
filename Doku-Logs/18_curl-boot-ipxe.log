@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 18 Nov 2026 13:27:19 GMT
+Content-Type: application/octet-stream
+Content-Length: 97
+Last-Modified: Wed, 18 Nov 2026 13:23:03 GMT
+Connection: keep-alive
+ETag: "6afda6b7-61"
+Accept-Ranges: bytes
+
+#!ipxe
+echo
+echo === boot.ipxe loaded ===
+echo IP: ${ip}    MAC: ${net0/mac}
+echo
+sleep 10
+shell
