@@ -1,0 +1,25 @@
+total 1.8G
+-r--r--r-- 1 root root  23K Sep  9 07:37 filesystem.manifest
+-r--r--r-- 1 root root   11 Sep  9 07:37 filesystem.size
+-r--r--r-- 1 root root  82M Sep  9 07:37 hwe-initrd
+-r--r--r-- 1 root root  17M Sep  9 07:37 hwe-vmlinuz
+-r--r--r-- 1 root root  76M Sep  9 07:37 initrd
+-r--r--r-- 1 root root  696 Sep  9 07:37 install-sources.yaml
+-r--r--r-- 1 root root  591 Sep  9 09:11 SHA256SUMS
+-r--r--r-- 1 root root  833 Sep  9 09:11 SHA256SUMS.gpg
+-r--r--r-- 1 root root  13K Sep  9 07:37 ubuntu-server-minimal.manifest
+-r--r--r-- 1 root root   10 Sep  9 07:37 ubuntu-server-minimal.size
+-r--r--r-- 1 root root 160M Sep  9 07:37 ubuntu-server-minimal.squashfs
+-r--r--r-- 1 root root 2.7K Sep  9 07:37 ubuntu-server-minimal.ubuntu-server.installer.generic-hwe.manifest
+-r--r--r-- 1 root root   10 Sep  9 07:37 ubuntu-server-minimal.ubuntu-server.installer.generic-hwe.size
+-r--r--r-- 1 root root 305M Sep  9 07:37 ubuntu-server-minimal.ubuntu-server.installer.generic-hwe.squashfs
+-r--r--r-- 1 root root 2.6K Sep  9 07:37 ubuntu-server-minimal.ubuntu-server.installer.generic.manifest
+-r--r--r-- 1 root root   10 Sep  9 07:37 ubuntu-server-minimal.ubuntu-server.installer.generic.size
+-r--r--r-- 1 root root 255M Sep  9 07:37 ubuntu-server-minimal.ubuntu-server.installer.generic.squashfs
+-r--r--r-- 1 root root 2.0K Sep  9 07:37 ubuntu-server-minimal.ubuntu-server.installer.manifest
+-r--r--r-- 1 root root   10 Sep  9 07:37 ubuntu-server-minimal.ubuntu-server.installer.size
+-r--r--r-- 1 root root 777M Sep  9 07:37 ubuntu-server-minimal.ubuntu-server.installer.squashfs
+-r--r--r-- 1 root root 7.4K Sep  9 07:37 ubuntu-server-minimal.ubuntu-server.manifest
+-r--r--r-- 1 root root   11 Sep  9 07:37 ubuntu-server-minimal.ubuntu-server.size
+-r--r--r-- 1 root root 141M Sep  9 07:37 ubuntu-server-minimal.ubuntu-server.squashfs
+-r--r--r-- 1 root root  15M Sep  9 07:37 vmlinuz

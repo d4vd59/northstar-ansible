@@ -1,0 +1,11 @@
+● nftables.service - nftables
+     Loaded: loaded (/usr/lib/systemd/system/nftables.service; enabled; preset: enabled)
+     Active: active (exited) since Sat 2026-11-21 12:17:42 UTC; 27s ago
+       Docs: man:nft(8)
+             http://wiki.nftables.org
+    Process: 1553 ExecStart=/usr/sbin/nft -f /etc/nftables.conf (code=exited, status=0/SUCCESS)
+   Main PID: 1553 (code=exited, status=0/SUCCESS)
+        CPU: 64ms
+
+Nov 21 12:17:42 northstar systemd[1]: Starting nftables.service - nftables...
+Nov 21 12:17:42 northstar systemd[1]: Finished nftables.service - nftables.

@@ -1,0 +1,3 @@
+tcp-segmentation-offload: on
+generic-segmentation-offload: on
+generic-receive-offload: on

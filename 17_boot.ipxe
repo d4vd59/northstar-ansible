@@ -1,0 +1,7 @@
+#!ipxe
+echo
+echo === boot.ipxe loaded ===
+echo IP: ${ip}    MAC: ${net0/mac}
+echo
+sleep 10
+shell

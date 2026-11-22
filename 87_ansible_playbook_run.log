@@ -1,0 +1,26 @@
+
+PLAY [Configure Webservers] ****************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [ziel-vm]
+
+TASK [Ensure Nginx is installed] ***********************************************
+changed: [ziel-vm]
+
+TASK [Ensure Nginx service is running and enabled] *****************************
+ok: [ziel-vm]
+
+PLAY [Configure DB Servers] ****************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [ziel-vm]
+
+TASK [Ensure MariaDB is installed] *********************************************
+changed: [ziel-vm]
+
+TASK [Ensure MariaDB service is running and enabled] ***************************
+ok: [ziel-vm]
+
+PLAY RECAP *********************************************************************
+ziel-vm                    : ok=6    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+

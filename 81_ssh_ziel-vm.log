@@ -1,0 +1,4 @@
+ziel-vm
+adminnm
+uid=1000(adminnm) gid=1000(adminnm) groups=1000(adminnm),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),101(lxd)
+SUDO NOPASSWD OK

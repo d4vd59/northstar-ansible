@@ -1,0 +1,6 @@
+total 2796
+-rw-r--r-- 1 root root 1169920 Nov 22 13:10 ipxe.efi
+-rw-r--r-- 1 root root 1043968 Nov  3 14:23 ipxe_ubuntu-2022.efi
+-rw-r--r-- 1 root root  310784 Nov 22 12:58 snponly.efi
+-rw-r--r-- 1 root root  238080 Nov 18 14:02 snponly_ubuntu-2022.efi
+-rw-r--r-- 1 root root   91409 Nov  3 14:23 undionly.kpxe

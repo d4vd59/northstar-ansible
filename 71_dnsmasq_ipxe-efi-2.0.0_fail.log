@@ -1,0 +1,6 @@
+Nov 22 13:16:15 northstar dnsmasq-dhcp[1867]: 1094848224 requested options: 59:T2, 60:vendor-class, 66:tftp-server, 67:bootfile-name,
+Nov 22 13:16:15 northstar dnsmasq-dhcp[1867]: 1094848224 sent size:  9 option: 67 bootfile-name  ipxe.efi
+Nov 22 13:16:18 northstar dnsmasq-dhcp[1867]: 1094848224 requested options: 59:T2, 60:vendor-class, 66:tftp-server, 67:bootfile-name,
+Nov 22 13:16:18 northstar dnsmasq-dhcp[1867]: 1094848224 sent size:  9 option: 67 bootfile-name  ipxe.efi
+Nov 22 13:16:19 northstar dnsmasq-tftp[1867]: sent /srv/tftp/ipxe.efi to 192.168.50.10
+Nov 22 13:16:19 northstar dnsmasq-tftp[1867]: sent /srv/tftp/ipxe.efi to 192.168.50.10

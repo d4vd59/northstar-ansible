@@ -1,0 +1,32 @@
+#cloud-config
+autoinstall:
+  version: 1
+  refresh-installer:
+    update: false
+  locale: en_US.UTF-8
+  keyboard:
+    layout: de
+  timezone: Europe/Berlin
+  network:
+    version: 2
+    ethernets:
+      id0:
+        match:
+          name: "en*"
+        dhcp4: true
+  identity:
+    hostname: ziel-vm
+    username: adminnm
+    password: "<REDACTED>"
+  ssh:
+    install-server: true
+    allow-pw: true
+    authorized-keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN4+hj6sB3JO1QkLYrPzWo66vhbWOT4aJVJY5I4DQJZG ansible@northstar
+  storage:
+    layout:
+      name: direct
+  late-commands:
+    - "echo 'adminnm ALL=(ALL) NOPASSWD:ALL' > /target/etc/sudoers.d/90-adminnm"
+    - "chmod 440 /target/etc/sudoers.d/90-adminnm"
+  shutdown: reboot

@@ -1,0 +1,7 @@
+  Size of logical volume ubuntu-vg/ubuntu-lv changed from <11.50 GiB (2943 extents) to <23.00 GiB (5887 extents).
+  Logical volume ubuntu-vg/ubuntu-lv successfully resized.
+resize2fs 1.47.0 (5-Feb-2023)
+Filesystem at /dev/mapper/ubuntu--vg-ubuntu--lv is mounted on /; on-line resizing required
+old_desc_blocks = 2, new_desc_blocks = 3
+The filesystem on /dev/mapper/ubuntu--vg-ubuntu--lv is now 6028288 (4k) blocks long.
+

@@ -1,0 +1,6 @@
+3: enp0s8: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 08:00:27:46:c5:70 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.50.1/24 brd 192.168.50.255 scope global enp0s8
+       valid_lft forever preferred_lft forever
+    inet6 fe80::a00:27ff:fe46:c570/64 scope link 
+       valid_lft forever preferred_lft forever

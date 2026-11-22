@@ -1,0 +1,10 @@
+﻿Boot: 11/22/2026 15:27:04
+HypervisorPresent: False
+
+
+VirtualizationBasedSecurityStatus : 0
+SecurityServicesRunning           : {0}
+SecurityServicesConfigured        : {0}
+
+
+

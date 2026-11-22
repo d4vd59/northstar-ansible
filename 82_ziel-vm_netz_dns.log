@@ -1,0 +1,36 @@
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+2: enp0s17: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    inet 192.168.50.10/24 metric 100 brd 192.168.50.255 scope global dynamic enp0s17
+       valid_lft 36534sec preferred_lft 36534sec
+default via 192.168.50.1 dev enp0s17 proto dhcp src 192.168.50.10 metric 100 
+1.1.1.1 via 192.168.50.1 dev enp0s17 proto dhcp src 192.168.50.10 metric 100 
+9.9.9.9 via 192.168.50.1 dev enp0s17 proto dhcp src 192.168.50.10 metric 100 
+192.168.50.0/24 dev enp0s17 proto kernel scope link src 192.168.50.10 metric 100 
+192.168.50.1 dev enp0s17 proto dhcp scope link src 192.168.50.10 metric 100 
+Global
+         Protocols: -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
+  resolv.conf mode: stub
+
+Link 2 (enp0s17)
+    Current Scopes: DNS
+         Protocols: +DefaultRoute -LLMNR -mDNS -DNSOverTLS DNSSEC=no/unsupported
+Current DNS Server: 1.1.1.1
+       DNS Servers: 1.1.1.1 9.9.9.9
+PING 192.168.50.1 (192.168.50.1) 56(84) bytes of data.
+64 bytes from 192.168.50.1: icmp_seq=1 ttl=64 time=0.262 ms
+64 bytes from 192.168.50.1: icmp_seq=2 ttl=64 time=0.343 ms
+64 bytes from 192.168.50.1: icmp_seq=3 ttl=64 time=0.342 ms
+
+--- 192.168.50.1 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2377ms
+rtt min/avg/max/mdev = 0.262/0.315/0.343/0.037 ms
+PING ubuntu.com (185.125.190.21) 56(84) bytes of data.
+64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=1 ttl=62 time=11.3 ms
+64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=2 ttl=62 time=12.8 ms
+64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=3 ttl=62 time=27.6 ms
+
+--- ubuntu.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2025ms
+rtt min/avg/max/mdev = 11.312/17.241/27.596/7.347 ms

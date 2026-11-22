@@ -1,0 +1,4 @@
+total 3.9G
+-r--r--r-- 1 adminnm adminnm  76M Nov 21 11:21 initrd
+-rw-rw-r-- 1 adminnm adminnm 3.9G Sep  9 09:12 ubuntu-24.04.5-live-server-amd64.iso
+-r--r--r-- 1 adminnm adminnm  15M Nov 21 11:21 vmlinuz

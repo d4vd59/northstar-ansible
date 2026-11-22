@@ -1,0 +1,134 @@
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 available DHCP range: 192.168.50.100 -- 192.168.50.200
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 vendor class: PXEClient:Arch:00007:UNDI:003000
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 DHCPDISCOVER(enp0s8) 08:00:27:56:46:dc
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 tags: known, efi64, enp0s8
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 DHCPOFFER(enp0s8) 192.168.50.10 08:00:27:56:46:dc
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 1:netmask, 2:time-offset, 3:router, 4, 5,
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 6:dns-server, 12:hostname, 13:boot-file-size,
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 15:domain-name, 17:root-path, 18:extension-path,
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 22:max-datagram-reassembly, 23:default-ttl,
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 28:broadcast, 40:nis-domain, 41:nis-server,
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 42:ntp-server, 43:vendor-encap, 50:requested-address,
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 51:lease-time, 54:server-identifier, 58:T1,
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 59:T2, 60:vendor-class, 66:tftp-server, 67:bootfile-name,
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 97:client-machine-id, 128, 129, 130, 131,
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 132, 133, 134, 135
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 next server: 192.168.50.1
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 broadcast response
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  1 option: 53 message-type  2
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  4 option: 54 server-identifier  192.168.50.1
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  4 option: 51 lease-time  12h
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 sent size: 12 option: 67 bootfile-name  snponly.efi
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  4 option: 58 T1  6h
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  4 option: 59 T2  10h30m
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  4 option:  1 netmask  255.255.255.0
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  4 option: 28 broadcast  192.168.50.255
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  4 option:  3 router  192.168.50.1
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  7 option: 12 hostname  ziel-vm
+Nov 22 12:25:43 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  8 option:  6 dns-server  1.1.1.1, 9.9.9.9
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 available DHCP range: 192.168.50.100 -- 192.168.50.200
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 vendor class: PXEClient:Arch:00007:UNDI:003000
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 DHCPREQUEST(enp0s8) 192.168.50.10 08:00:27:56:46:dc
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 tags: known, efi64, enp0s8
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 DHCPACK(enp0s8) 192.168.50.10 08:00:27:56:46:dc ziel-vm
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 1:netmask, 2:time-offset, 3:router, 4, 5,
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 6:dns-server, 12:hostname, 13:boot-file-size,
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 15:domain-name, 17:root-path, 18:extension-path,
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 22:max-datagram-reassembly, 23:default-ttl,
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 28:broadcast, 40:nis-domain, 41:nis-server,
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 42:ntp-server, 43:vendor-encap, 50:requested-address,
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 51:lease-time, 54:server-identifier, 58:T1,
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 59:T2, 60:vendor-class, 66:tftp-server, 67:bootfile-name,
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 97:client-machine-id, 128, 129, 130, 131,
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 requested options: 132, 133, 134, 135
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 next server: 192.168.50.1
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 broadcast response
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  1 option: 53 message-type  5
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  4 option: 54 server-identifier  192.168.50.1
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  4 option: 51 lease-time  12h
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 sent size: 12 option: 67 bootfile-name  snponly.efi
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  4 option: 58 T1  6h
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  4 option: 59 T2  10h30m
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  4 option:  1 netmask  255.255.255.0
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  4 option: 28 broadcast  192.168.50.255
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  4 option:  3 router  192.168.50.1
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  7 option: 12 hostname  ziel-vm
+Nov 22 12:25:47 northstar dnsmasq-dhcp[1149]: 3540629129 sent size:  8 option:  6 dns-server  1.1.1.1, 9.9.9.9
+Nov 22 12:25:47 northstar dnsmasq-tftp[1149]: error 8 User aborted the transfer received from 192.168.50.10
+Nov 22 12:25:47 northstar dnsmasq-tftp[1149]: sent /srv/tftp/snponly.efi to 192.168.50.10
+Nov 22 12:25:47 northstar dnsmasq-tftp[1149]: sent /srv/tftp/snponly.efi to 192.168.50.10
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 available DHCP range: 192.168.50.100 -- 192.168.50.200
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 vendor class: PXEClient:Arch:00007:UNDI:003010
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 user class: iPXE
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 DHCPDISCOVER(enp0s8) 08:00:27:56:46:dc
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 tags: known, ipxe, efi64, enp0s8
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 DHCPOFFER(enp0s8) 192.168.50.10 08:00:27:56:46:dc
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 1:netmask, 3:router, 6:dns-server, 7:log-server,
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 12:hostname, 15:domain-name, 17:root-path,
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 26:mtu, 43:vendor-encap, 60:vendor-class,
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 66:tftp-server, 67:bootfile-name, 119:domain-search,
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 128, 129, 130, 131, 132, 133, 134, 135, 175,
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 203
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 next server: 192.168.50.1
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 broadcast response
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  1 option: 53 message-type  2
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option: 54 server-identifier  192.168.50.1
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option: 51 lease-time  12h
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 sent size: 30 option: 67 bootfile-name  http://192.168.50.1/boot.ipxe
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option: 58 T1  6h
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option: 59 T2  10h30m
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option:  1 netmask  255.255.255.0
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option: 28 broadcast  192.168.50.255
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option:  3 router  192.168.50.1
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  7 option: 12 hostname  ziel-vm
+Nov 22 12:25:52 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  8 option:  6 dns-server  1.1.1.1, 9.9.9.9
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 available DHCP range: 192.168.50.100 -- 192.168.50.200
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 vendor class: PXEClient:Arch:00007:UNDI:003010
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 user class: iPXE
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 DHCPDISCOVER(enp0s8) 08:00:27:56:46:dc
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 tags: known, ipxe, efi64, enp0s8
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 DHCPOFFER(enp0s8) 192.168.50.10 08:00:27:56:46:dc
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 1:netmask, 3:router, 6:dns-server, 7:log-server,
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 12:hostname, 15:domain-name, 17:root-path,
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 26:mtu, 43:vendor-encap, 60:vendor-class,
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 66:tftp-server, 67:bootfile-name, 119:domain-search,
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 128, 129, 130, 131, 132, 133, 134, 135, 175,
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 203
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 next server: 192.168.50.1
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 broadcast response
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  1 option: 53 message-type  2
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option: 54 server-identifier  192.168.50.1
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option: 51 lease-time  12h
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 sent size: 30 option: 67 bootfile-name  http://192.168.50.1/boot.ipxe
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option: 58 T1  6h
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option: 59 T2  10h30m
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option:  1 netmask  255.255.255.0
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option: 28 broadcast  192.168.50.255
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option:  3 router  192.168.50.1
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  7 option: 12 hostname  ziel-vm
+Nov 22 12:25:53 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  8 option:  6 dns-server  1.1.1.1, 9.9.9.9
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 available DHCP range: 192.168.50.100 -- 192.168.50.200
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 vendor class: PXEClient:Arch:00007:UNDI:003010
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 user class: iPXE
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 DHCPREQUEST(enp0s8) 192.168.50.10 08:00:27:56:46:dc
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 tags: known, ipxe, efi64, enp0s8
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 DHCPACK(enp0s8) 192.168.50.10 08:00:27:56:46:dc ziel-vm
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 1:netmask, 3:router, 6:dns-server, 7:log-server,
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 12:hostname, 15:domain-name, 17:root-path,
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 26:mtu, 43:vendor-encap, 60:vendor-class,
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 66:tftp-server, 67:bootfile-name, 119:domain-search,
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 128, 129, 130, 131, 132, 133, 134, 135, 175,
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 requested options: 203
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 next server: 192.168.50.1
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 broadcast response
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  1 option: 53 message-type  5
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option: 54 server-identifier  192.168.50.1
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option: 51 lease-time  12h
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 sent size: 30 option: 67 bootfile-name  http://192.168.50.1/boot.ipxe
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option: 58 T1  6h
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option: 59 T2  10h30m
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option:  1 netmask  255.255.255.0
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option: 28 broadcast  192.168.50.255
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  4 option:  3 router  192.168.50.1
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  7 option: 12 hostname  ziel-vm
+Nov 22 12:25:55 northstar dnsmasq-dhcp[1149]: 2838075736 sent size:  8 option:  6 dns-server  1.1.1.1, 9.9.9.9

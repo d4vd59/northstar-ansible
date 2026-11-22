@@ -1,0 +1,306 @@
+Nov 03 14:17:49 northstar systemd[1]: Starting dnsmasq.service - dnsmasq - A lightweight DHCP and caching DNS server...
+Nov 03 14:17:49 northstar systemd-helper[1672]: dnsmasq: failed to create listening socket for port 53: Address already in use
+Nov 03 14:17:49 northstar dnsmasq[1672]: failed to create listening socket for port 53: Address already in use
+Nov 03 14:17:49 northstar dnsmasq[1672]: FAILED to start up
+Nov 03 14:17:49 northstar systemd[1]: dnsmasq.service: Control process exited, code=exited, status=2/INVALIDARGUMENT
+Nov 03 14:17:49 northstar systemd[1]: dnsmasq.service: Failed with result 'exit-code'.
+Nov 03 14:17:49 northstar systemd[1]: Failed to start dnsmasq.service - dnsmasq - A lightweight DHCP and caching DNS server.
+Nov 03 14:39:29 northstar systemd[1]: Starting dnsmasq.service - dnsmasq - A lightweight DHCP and caching DNS server...
+Nov 03 14:39:29 northstar dnsmasq[2161]: started, version 2.91 DNS disabled
+Nov 03 14:39:29 northstar dnsmasq[2161]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset nftset auth DNSSEC loop-detect inotify dumpfile
+Nov 03 14:39:29 northstar dnsmasq-dhcp[2161]: DHCP, IP range 192.168.50.100 -- 192.168.50.200, lease time 12h
+Nov 03 14:39:29 northstar dnsmasq-dhcp[2161]: DHCP, sockets bound exclusively to interface enp0s8
+Nov 03 14:39:29 northstar dnsmasq-tftp[2161]: TFTP root is /srv/tftp
+Nov 03 14:39:29 northstar resolvconf[2169]: Dropped protocol specifier '.dnsmasq' from 'lo.dnsmasq'. Using 'lo' (ifindex=1).
+Nov 03 14:39:29 northstar resolvconf[2169]: Failed to set DNS configuration: Link lo is loopback device.
+Nov 03 14:39:29 northstar systemd[1]: Started dnsmasq.service - dnsmasq - A lightweight DHCP and caching DNS server.
+Nov 03 14:51:50 northstar dnsmasq-dhcp[2161]: 690744499 available DHCP range: 192.168.50.100 -- 192.168.50.200
+Nov 03 14:51:50 northstar dnsmasq-dhcp[2161]: 690744499 vendor class: PXEClient:Arch:00007:UNDI:003000
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 DHCPDISCOVER(enp0s8) 08:00:27:56:46:dc
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 tags: efi64, enp0s8
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 DHCPOFFER(enp0s8) 192.168.50.124 08:00:27:56:46:dc
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 1:netmask, 2:time-offset, 3:router, 4, 5,
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 6:dns-server, 12:hostname, 13:boot-file-size,
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 15:domain-name, 17:root-path, 18:extension-path,
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 22:max-datagram-reassembly, 23:default-ttl,
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 28:broadcast, 40:nis-domain, 41:nis-server,
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 42:ntp-server, 43:vendor-encap, 50:requested-address,
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 51:lease-time, 54:server-identifier, 58:T1,
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 59:T2, 60:vendor-class, 66:tftp-server, 67:bootfile-name,
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 97:client-machine-id, 128, 129, 130, 131,
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 132, 133, 134, 135
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 next server: 192.168.50.1
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 broadcast response
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  1 option: 53 message-type  2
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  4 option: 54 server-identifier  192.168.50.1
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  4 option: 51 lease-time  12h
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  9 option: 67 bootfile-name  ipxe.efi
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  4 option: 58 T1  6h
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  4 option: 59 T2  10h30m
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  4 option:  1 netmask  255.255.255.0
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  4 option: 28 broadcast  192.168.50.255
+Nov 03 14:51:53 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  4 option:  3 router  192.168.50.1
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 available DHCP range: 192.168.50.100 -- 192.168.50.200
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 vendor class: PXEClient:Arch:00007:UNDI:003000
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 DHCPREQUEST(enp0s8) 192.168.50.124 08:00:27:56:46:dc
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 tags: efi64, enp0s8
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 DHCPACK(enp0s8) 192.168.50.124 08:00:27:56:46:dc
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 1:netmask, 2:time-offset, 3:router, 4, 5,
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 6:dns-server, 12:hostname, 13:boot-file-size,
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 15:domain-name, 17:root-path, 18:extension-path,
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 22:max-datagram-reassembly, 23:default-ttl,
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 28:broadcast, 40:nis-domain, 41:nis-server,
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 42:ntp-server, 43:vendor-encap, 50:requested-address,
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 51:lease-time, 54:server-identifier, 58:T1,
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 59:T2, 60:vendor-class, 66:tftp-server, 67:bootfile-name,
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 97:client-machine-id, 128, 129, 130, 131,
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 requested options: 132, 133, 134, 135
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 next server: 192.168.50.1
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 broadcast response
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  1 option: 53 message-type  5
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  4 option: 54 server-identifier  192.168.50.1
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  4 option: 51 lease-time  12h
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  9 option: 67 bootfile-name  ipxe.efi
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  4 option: 58 T1  6h
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  4 option: 59 T2  10h30m
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  4 option:  1 netmask  255.255.255.0
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  4 option: 28 broadcast  192.168.50.255
+Nov 03 14:51:54 northstar dnsmasq-dhcp[2161]: 690744499 sent size:  4 option:  3 router  192.168.50.1
+Nov 03 14:51:54 northstar dnsmasq-tftp[2161]: error 8 User aborted the transfer received from 192.168.50.124
+Nov 03 14:51:54 northstar dnsmasq-tftp[2161]: sent /srv/tftp/ipxe.efi to 192.168.50.124
+Nov 03 14:51:54 northstar dnsmasq-tftp[2161]: sent /srv/tftp/ipxe.efi to 192.168.50.124
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 available DHCP range: 192.168.50.100 -- 192.168.50.200
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 vendor class: PXEClient:Arch:00007:UNDI:003000
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 DHCPDISCOVER(enp0s8) 08:00:27:56:46:dc
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 tags: efi64, enp0s8
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 DHCPOFFER(enp0s8) 192.168.50.124 08:00:27:56:46:dc
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 1:netmask, 2:time-offset, 3:router, 4, 5,
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 6:dns-server, 12:hostname, 13:boot-file-size,
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 15:domain-name, 17:root-path, 18:extension-path,
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 22:max-datagram-reassembly, 23:default-ttl,
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 28:broadcast, 40:nis-domain, 41:nis-server,
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 42:ntp-server, 43:vendor-encap, 50:requested-address,
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 51:lease-time, 54:server-identifier, 58:T1,
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 59:T2, 60:vendor-class, 66:tftp-server, 67:bootfile-name,
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 97:client-machine-id, 128, 129, 130, 131,
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 132, 133, 134, 135
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 next server: 192.168.50.1
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 broadcast response
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  1 option: 53 message-type  2
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  4 option: 54 server-identifier  192.168.50.1
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  4 option: 51 lease-time  12h
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  9 option: 67 bootfile-name  ipxe.efi
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  4 option: 58 T1  6h
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  4 option: 59 T2  10h30m
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  4 option:  1 netmask  255.255.255.0
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  4 option: 28 broadcast  192.168.50.255
+Nov 03 15:04:35 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  4 option:  3 router  192.168.50.1
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 available DHCP range: 192.168.50.100 -- 192.168.50.200
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 vendor class: PXEClient:Arch:00007:UNDI:003000
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 DHCPREQUEST(enp0s8) 192.168.50.124 08:00:27:56:46:dc
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 tags: efi64, enp0s8
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 DHCPACK(enp0s8) 192.168.50.124 08:00:27:56:46:dc
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 1:netmask, 2:time-offset, 3:router, 4, 5,
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 6:dns-server, 12:hostname, 13:boot-file-size,
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 15:domain-name, 17:root-path, 18:extension-path,
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 22:max-datagram-reassembly, 23:default-ttl,
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 28:broadcast, 40:nis-domain, 41:nis-server,
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 42:ntp-server, 43:vendor-encap, 50:requested-address,
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 51:lease-time, 54:server-identifier, 58:T1,
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 59:T2, 60:vendor-class, 66:tftp-server, 67:bootfile-name,
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 97:client-machine-id, 128, 129, 130, 131,
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 requested options: 132, 133, 134, 135
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 next server: 192.168.50.1
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 broadcast response
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  1 option: 53 message-type  5
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  4 option: 54 server-identifier  192.168.50.1
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  4 option: 51 lease-time  12h
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  9 option: 67 bootfile-name  ipxe.efi
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  4 option: 58 T1  6h
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  4 option: 59 T2  10h30m
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  4 option:  1 netmask  255.255.255.0
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  4 option: 28 broadcast  192.168.50.255
+Nov 03 15:04:39 northstar dnsmasq-dhcp[2161]: 3593051622 sent size:  4 option:  3 router  192.168.50.1
+Nov 03 15:04:39 northstar dnsmasq-tftp[2161]: error 8 User aborted the transfer received from 192.168.50.124
+Nov 03 15:04:39 northstar dnsmasq-tftp[2161]: sent /srv/tftp/ipxe.efi to 192.168.50.124
+Nov 03 15:05:08 northstar dnsmasq-tftp[2161]: failed sending /srv/tftp/ipxe.efi to 192.168.50.124
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 available DHCP range: 192.168.50.100 -- 192.168.50.200
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 vendor class: PXEClient:Arch:00007:UNDI:003000
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 DHCPDISCOVER(enp0s8) 08:00:27:56:46:dc
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 tags: efi64, enp0s8
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 DHCPOFFER(enp0s8) 192.168.50.124 08:00:27:56:46:dc
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 1:netmask, 2:time-offset, 3:router, 4, 5,
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 6:dns-server, 12:hostname, 13:boot-file-size,
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 15:domain-name, 17:root-path, 18:extension-path,
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 22:max-datagram-reassembly, 23:default-ttl,
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 28:broadcast, 40:nis-domain, 41:nis-server,
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 42:ntp-server, 43:vendor-encap, 50:requested-address,
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 51:lease-time, 54:server-identifier, 58:T1,
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 59:T2, 60:vendor-class, 66:tftp-server, 67:bootfile-name,
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 97:client-machine-id, 128, 129, 130, 131,
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 132, 133, 134, 135
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 next server: 192.168.50.1
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 broadcast response
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  1 option: 53 message-type  2
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  4 option: 54 server-identifier  192.168.50.1
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  4 option: 51 lease-time  12h
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  9 option: 67 bootfile-name  ipxe.efi
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  4 option: 58 T1  6h
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  4 option: 59 T2  10h30m
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  4 option:  1 netmask  255.255.255.0
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  4 option: 28 broadcast  192.168.50.255
+Nov 03 15:05:32 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  4 option:  3 router  192.168.50.1
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 available DHCP range: 192.168.50.100 -- 192.168.50.200
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 vendor class: PXEClient:Arch:00007:UNDI:003000
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 DHCPREQUEST(enp0s8) 192.168.50.124 08:00:27:56:46:dc
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 tags: efi64, enp0s8
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 DHCPACK(enp0s8) 192.168.50.124 08:00:27:56:46:dc
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 1:netmask, 2:time-offset, 3:router, 4, 5,
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 6:dns-server, 12:hostname, 13:boot-file-size,
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 15:domain-name, 17:root-path, 18:extension-path,
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 22:max-datagram-reassembly, 23:default-ttl,
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 28:broadcast, 40:nis-domain, 41:nis-server,
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 42:ntp-server, 43:vendor-encap, 50:requested-address,
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 51:lease-time, 54:server-identifier, 58:T1,
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 59:T2, 60:vendor-class, 66:tftp-server, 67:bootfile-name,
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 97:client-machine-id, 128, 129, 130, 131,
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 requested options: 132, 133, 134, 135
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 next server: 192.168.50.1
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 broadcast response
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  1 option: 53 message-type  5
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  4 option: 54 server-identifier  192.168.50.1
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  4 option: 51 lease-time  12h
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  9 option: 67 bootfile-name  ipxe.efi
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  4 option: 58 T1  6h
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  4 option: 59 T2  10h30m
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  4 option:  1 netmask  255.255.255.0
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  4 option: 28 broadcast  192.168.50.255
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 sent size:  4 option:  3 router  192.168.50.1
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 available DHCP range: 192.168.50.100 -- 192.168.50.200
+Nov 03 15:05:36 northstar dnsmasq-dhcp[2161]: 1115536553 DHCPDECLINE(enp0s8) 192.168.50.124 08:00:27:56:46:dc Lease is denied upon received ACK
+Nov 03 15:10:13 northstar systemd[1]: Stopping dnsmasq.service - dnsmasq - A lightweight DHCP and caching DNS server...
+Nov 03 15:10:13 northstar resolvconf[2597]: Dropped protocol specifier '.dnsmasq' from 'lo.dnsmasq'. Using 'lo' (ifindex=1).
+Nov 03 15:10:13 northstar resolvconf[2597]: Failed to revert interface configuration: Link lo is loopback device.
+Nov 03 15:10:13 northstar dnsmasq[2161]: exiting on receipt of SIGTERM
+Nov 03 15:10:13 northstar systemd[1]: dnsmasq.service: Deactivated successfully.
+Nov 03 15:10:13 northstar systemd[1]: Stopped dnsmasq.service - dnsmasq - A lightweight DHCP and caching DNS server.
+-- Boot 66dc51b02d1b489dae279b0c68142bbf --
+Nov 18 12:36:55 northstar systemd[1]: Starting dnsmasq.service - dnsmasq - A lightweight DHCP and caching DNS server...
+Nov 18 12:36:55 northstar dnsmasq[741]: started, version 2.91 DNS disabled
+Nov 18 12:36:55 northstar dnsmasq[741]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset nftset auth DNSSEC loop-detect inotify dumpfile
+Nov 18 12:36:55 northstar dnsmasq-dhcp[741]: DHCP, IP range 192.168.50.100 -- 192.168.50.200, lease time 12h
+Nov 18 12:36:55 northstar dnsmasq-dhcp[741]: DHCP, sockets bound exclusively to interface enp0s8
+Nov 18 12:36:55 northstar dnsmasq-tftp[741]: TFTP root is /srv/tftp
+Nov 18 12:36:55 northstar resolvconf[794]: Dropped protocol specifier '.dnsmasq' from 'lo.dnsmasq'. Using 'lo' (ifindex=1).
+Nov 18 12:36:55 northstar resolvconf[794]: Failed to set DNS configuration: Link lo is loopback device.
+Nov 18 12:36:55 northstar systemd[1]: Started dnsmasq.service - dnsmasq - A lightweight DHCP and caching DNS server.
+Nov 18 13:36:38 northstar dnsmasq-dhcp[741]: 1823151386 available DHCP range: 192.168.50.100 -- 192.168.50.200
+Nov 18 13:36:38 northstar dnsmasq-dhcp[741]: 1823151386 vendor class: PXEClient:Arch:00007:UNDI:003000
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 DHCPDISCOVER(enp0s8) 08:00:27:56:46:dc
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 tags: efi64, enp0s8
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 DHCPOFFER(enp0s8) 192.168.50.124 08:00:27:56:46:dc
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 1:netmask, 2:time-offset, 3:router, 4, 5,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 6:dns-server, 12:hostname, 13:boot-file-size,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 15:domain-name, 17:root-path, 18:extension-path,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 22:max-datagram-reassembly, 23:default-ttl,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 28:broadcast, 40:nis-domain, 41:nis-server,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 42:ntp-server, 43:vendor-encap, 50:requested-address,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 51:lease-time, 54:server-identifier, 58:T1,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 59:T2, 60:vendor-class, 66:tftp-server, 67:bootfile-name,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 97:client-machine-id, 128, 129, 130, 131,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 132, 133, 134, 135
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 next server: 192.168.50.1
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 broadcast response
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  1 option: 53 message-type  2
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  4 option: 54 server-identifier  192.168.50.1
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  4 option: 51 lease-time  12h
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  9 option: 67 bootfile-name  ipxe.efi
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  4 option: 58 T1  6h
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  4 option: 59 T2  10h30m
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  4 option:  1 netmask  255.255.255.0
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  4 option: 28 broadcast  192.168.50.255
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  4 option:  3 router  192.168.50.1
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 available DHCP range: 192.168.50.100 -- 192.168.50.200
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 vendor class: PXEClient:Arch:00007:UNDI:003000
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 DHCPREQUEST(enp0s8) 192.168.50.124 08:00:27:56:46:dc
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 tags: efi64, enp0s8
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 DHCPACK(enp0s8) 192.168.50.124 08:00:27:56:46:dc
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 1:netmask, 2:time-offset, 3:router, 4, 5,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 6:dns-server, 12:hostname, 13:boot-file-size,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 15:domain-name, 17:root-path, 18:extension-path,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 22:max-datagram-reassembly, 23:default-ttl,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 28:broadcast, 40:nis-domain, 41:nis-server,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 42:ntp-server, 43:vendor-encap, 50:requested-address,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 51:lease-time, 54:server-identifier, 58:T1,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 59:T2, 60:vendor-class, 66:tftp-server, 67:bootfile-name,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 97:client-machine-id, 128, 129, 130, 131,
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 requested options: 132, 133, 134, 135
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 next server: 192.168.50.1
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 broadcast response
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  1 option: 53 message-type  5
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  4 option: 54 server-identifier  192.168.50.1
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  4 option: 51 lease-time  12h
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  9 option: 67 bootfile-name  ipxe.efi
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  4 option: 58 T1  6h
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  4 option: 59 T2  10h30m
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  4 option:  1 netmask  255.255.255.0
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  4 option: 28 broadcast  192.168.50.255
+Nov 18 13:36:42 northstar dnsmasq-dhcp[741]: 1823151386 sent size:  4 option:  3 router  192.168.50.1
+Nov 18 13:36:42 northstar dnsmasq-tftp[741]: error 8 User aborted the transfer received from 192.168.50.124
+Nov 18 13:36:42 northstar dnsmasq-tftp[741]: sent /srv/tftp/ipxe.efi to 192.168.50.124
+Nov 18 13:36:43 northstar dnsmasq-tftp[741]: sent /srv/tftp/ipxe.efi to 192.168.50.124
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 available DHCP range: 192.168.50.100 -- 192.168.50.200
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 vendor class: PXEClient:Arch:00007:UNDI:003000
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 DHCPDISCOVER(enp0s8) 08:00:27:56:46:dc
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 tags: efi64, enp0s8
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 DHCPOFFER(enp0s8) 192.168.50.124 08:00:27:56:46:dc
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 1:netmask, 2:time-offset, 3:router, 4, 5,
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 6:dns-server, 12:hostname, 13:boot-file-size,
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 15:domain-name, 17:root-path, 18:extension-path,
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 22:max-datagram-reassembly, 23:default-ttl,
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 28:broadcast, 40:nis-domain, 41:nis-server,
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 42:ntp-server, 43:vendor-encap, 50:requested-address,
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 51:lease-time, 54:server-identifier, 58:T1,
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 59:T2, 60:vendor-class, 66:tftp-server, 67:bootfile-name,
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 97:client-machine-id, 128, 129, 130, 131,
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 132, 133, 134, 135
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 next server: 192.168.50.1
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 broadcast response
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  1 option: 53 message-type  2
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  4 option: 54 server-identifier  192.168.50.1
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  4 option: 51 lease-time  12h
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  9 option: 67 bootfile-name  ipxe.efi
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  4 option: 58 T1  6h
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  4 option: 59 T2  10h30m
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  4 option:  1 netmask  255.255.255.0
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  4 option: 28 broadcast  192.168.50.255
+Nov 18 13:52:50 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  4 option:  3 router  192.168.50.1
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 available DHCP range: 192.168.50.100 -- 192.168.50.200
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 vendor class: PXEClient:Arch:00007:UNDI:003000
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 DHCPREQUEST(enp0s8) 192.168.50.124 08:00:27:56:46:dc
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 tags: efi64, enp0s8
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 DHCPACK(enp0s8) 192.168.50.124 08:00:27:56:46:dc
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 1:netmask, 2:time-offset, 3:router, 4, 5,
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 6:dns-server, 12:hostname, 13:boot-file-size,
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 15:domain-name, 17:root-path, 18:extension-path,
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 22:max-datagram-reassembly, 23:default-ttl,
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 28:broadcast, 40:nis-domain, 41:nis-server,
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 42:ntp-server, 43:vendor-encap, 50:requested-address,
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 51:lease-time, 54:server-identifier, 58:T1,
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 59:T2, 60:vendor-class, 66:tftp-server, 67:bootfile-name,
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 97:client-machine-id, 128, 129, 130, 131,
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 requested options: 132, 133, 134, 135
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 next server: 192.168.50.1
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 broadcast response
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  1 option: 53 message-type  5
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  4 option: 54 server-identifier  192.168.50.1
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  4 option: 51 lease-time  12h
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  9 option: 67 bootfile-name  ipxe.efi
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  4 option: 58 T1  6h
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  4 option: 59 T2  10h30m
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  4 option:  1 netmask  255.255.255.0
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  4 option: 28 broadcast  192.168.50.255
+Nov 18 13:52:54 northstar dnsmasq-dhcp[741]: 2736068170 sent size:  4 option:  3 router  192.168.50.1
+Nov 18 13:52:54 northstar dnsmasq-tftp[741]: error 8 User aborted the transfer received from 192.168.50.124
+Nov 18 13:52:54 northstar dnsmasq-tftp[741]: sent /srv/tftp/ipxe.efi to 192.168.50.124
+Nov 18 13:52:54 northstar dnsmasq-tftp[741]: sent /srv/tftp/ipxe.efi to 192.168.50.124

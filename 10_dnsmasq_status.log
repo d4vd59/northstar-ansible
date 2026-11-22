@@ -1,0 +1,19 @@
+● dnsmasq.service - dnsmasq - A lightweight DHCP and caching DNS server
+     Loaded: loaded (/usr/lib/systemd/system/dnsmasq.service; enabled; preset: enabled)
+     Active: active (running) since Tue 2026-11-03 14:39:29 UTC; 4min 7s ago
+   Main PID: 2161 (dnsmasq)
+      Tasks: 1 (limit: 4601)
+     Memory: 908.0K (peak: 2.3M)
+        CPU: 85ms
+     CGroup: /system.slice/dnsmasq.service
+             └─2161 /usr/sbin/dnsmasq -x /run/dnsmasq/dnsmasq.pid -u dnsmasq -r /run/dnsmasq/resolv.conf -7 /etc/dnsmasq.d,.dpkg-dist,.dpkg-old,.dpkg-new --local-service --trust-anchor=.,20326,8,2,E06D44B80B8F1D39A95C0B0D7C65D08458E880409BBC683457104237C7F8EC8D --trust-anchor=.,38696,8,2,683D2D0ACB8C9B712A1948B27F741219298D0A450D612C483AF444A4C0FB2B16
+
+Nov 03 14:39:29 northstar systemd[1]: Starting dnsmasq.service - dnsmasq - A lightweight DHCP and caching DNS server...
+Nov 03 14:39:29 northstar dnsmasq[2161]: started, version 2.91 DNS disabled
+Nov 03 14:39:29 northstar dnsmasq[2161]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset nftset auth DNSSEC loop-detect inotify dumpfile
+Nov 03 14:39:29 northstar dnsmasq-dhcp[2161]: DHCP, IP range 192.168.50.100 -- 192.168.50.200, lease time 12h
+Nov 03 14:39:29 northstar dnsmasq-dhcp[2161]: DHCP, sockets bound exclusively to interface enp0s8
+Nov 03 14:39:29 northstar dnsmasq-tftp[2161]: TFTP root is /srv/tftp
+Nov 03 14:39:29 northstar resolvconf[2169]: Dropped protocol specifier '.dnsmasq' from 'lo.dnsmasq'. Using 'lo' (ifindex=1).
+Nov 03 14:39:29 northstar resolvconf[2169]: Failed to set DNS configuration: Link lo is loopback device.
+Nov 03 14:39:29 northstar systemd[1]: Started dnsmasq.service - dnsmasq - A lightweight DHCP and caching DNS server.

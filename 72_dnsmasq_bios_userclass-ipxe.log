@@ -1,0 +1,9 @@
+Nov 22 13:36:43 northstar dnsmasq-dhcp[1867]: 1180555597 tags: known, ipxe, bios, enp0s8
+Nov 22 13:36:43 northstar dnsmasq-dhcp[1867]: 1180555597 requested options: 66:tftp-server, 67:bootfile-name, 119:domain-search,
+Nov 22 13:36:43 northstar dnsmasq-dhcp[1867]: 1180555597 sent size: 30 option: 67 bootfile-name  http://192.168.50.1/boot.ipxe
+Nov 22 13:36:44 northstar dnsmasq-dhcp[1867]: 1180555597 tags: known, ipxe, bios, enp0s8
+Nov 22 13:36:44 northstar dnsmasq-dhcp[1867]: 1180555597 requested options: 66:tftp-server, 67:bootfile-name, 119:domain-search,
+Nov 22 13:36:44 northstar dnsmasq-dhcp[1867]: 1180555597 sent size: 30 option: 67 bootfile-name  http://192.168.50.1/boot.ipxe
+Nov 22 13:36:46 northstar dnsmasq-dhcp[1867]: 1180555597 tags: known, ipxe, bios, enp0s8
+Nov 22 13:36:46 northstar dnsmasq-dhcp[1867]: 1180555597 requested options: 66:tftp-server, 67:bootfile-name, 119:domain-search,
+Nov 22 13:36:46 northstar dnsmasq-dhcp[1867]: 1180555597 sent size: 30 option: 67 bootfile-name  http://192.168.50.1/boot.ipxe

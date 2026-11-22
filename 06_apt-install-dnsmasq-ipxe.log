@@ -1,0 +1,2 @@
+Commandline: apt install -y dnsmasq ipxe
+Install: dnsmasq:amd64 (2.91-0ubuntu0.24.04.2), ipxe-qemu:amd64 (1.21.1+git-20220113.fbbdc3926-0ubuntu2, automatic), dnsmasq-base:amd64 (2.91-0ubuntu0.24.04.2, automatic), grub-ipxe:amd64 (1.21.1+git-20220113.fbbdc3926-0ubuntu2, automatic), ipxe:amd64 (1.21.1+git-20220113.fbbdc3926-0ubuntu2), dns-root-data:amd64 (2024071801~ubuntu0.24.04.1, automatic)

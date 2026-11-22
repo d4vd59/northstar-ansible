@@ -1,0 +1,17 @@
+﻿
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard
+    EnableVirtualizationBasedSecurity    REG_DWORD    0x0
+    HVCIMATRequired    REG_DWORD    0x0
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard
+    CachedDrtmAuthIndex    REG_DWORD    0x3
+    RequireMicrosoftSignedBootChain    REG_DWORD    0x1
+    WasEnabledBy    REG_DWORD    0x1
+    EnableVirtualizationBasedSecurity    REG_DWORD    0x0
+    HyperVVirtualizationBasedSecurityOptout    REG_DWORD    0x0
+    RequirePlatformSecurityFeatures    REG_DWORD    0x3
+    Locked    REG_DWORD    0x0
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\DeviceGuard\VelocityScenarios

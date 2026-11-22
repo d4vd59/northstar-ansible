@@ -1,0 +1,10 @@
+all:
+  children:
+    webservers:
+      hosts:
+        ziel-vm:
+          ansible_host: 192.168.50.10
+          ansible_user: adminnm
+    dbservers:
+      hosts:
+        ziel-vm:
